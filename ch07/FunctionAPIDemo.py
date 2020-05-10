@@ -57,3 +57,4 @@ y_train = np.random.random((1000, 10))
 model.fit(x_train, y_train, epochs=10, batch_size=128)
 score = model.evaluate(x_train, y_train)
 
+
